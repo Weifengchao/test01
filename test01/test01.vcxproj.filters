@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Blash数集.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="两数之和 链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最长子串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="大水题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="压轴题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="三七互娱.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base code.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base code1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串进制转换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="聚光灯-人.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="美团1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="美团2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="meituan3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="meituna2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="流水.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="小偷.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="网易互联网2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="网易2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="网易4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="网易1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="网易3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
