@@ -28,7 +28,7 @@ int main()
 			}
 		}
 	}
-	cout << ans;
+	cout << ans << endl;
 	system("pause");
 	return 0;
 }
