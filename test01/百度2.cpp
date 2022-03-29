@@ -8,6 +8,8 @@ inline bool judedge(float a) {
 	else
 		return false;
 }
+
+//tijiao
 int main()
 {
 	int T, N;
