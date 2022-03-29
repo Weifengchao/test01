@@ -1,18 +1,34 @@
-#include <iostream>
-#include<algorithm>
+#include<iostream>
+#include<string>
+#include<vector>
 using namespace std;
-int main() {
-	int a, b, x, y;
-	cin >> a >> b >> x >> y;
-	int len = max(x, y);
-	int num = 0;
-	int sum = a + b;
-	if (sum%len != 0) {
-		num = (int)sum / len + 1;
+
+int main()
+{
+	string s;
+	cin >> s;
+	int ans = 0;
+	int left = 0;
+  	for (int i = 1; i < s.size(); ++i) {
+		left = i;
+		while (i < s.size() && s[i] == s[i - 1] || s[i] == s[i - 1] + 1) {
+			++i;
+		}
+		if (left != i) {
+			--i;
+			if ((left - i) % 2 == 0) {
+				for (; left <= i; left += 2) {
+					ans += s[left] - 'a' + 1 + s[left - 1] - 'a' + 1;
+				}
+			}
+			else {
+				for (left++; left <= i; left += 2) {
+					ans += s[left] - 'a' + 1 + s[left - 1] - 'a' + 1;
+				}
+			}
+		}
 	}
-	else {
-		num = sum / len;
-	}
-	cout << num;
+	cout << ans << endl;
+	system("pause");
 	return 0;
 }
