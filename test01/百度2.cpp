@@ -9,7 +9,7 @@ inline bool judedge(float a) {
 		return false;
 }
 
-//tijiao
+//shishi
 int main()
 {
 	int T, N;
