@@ -81,5 +81,14 @@
     <ClCompile Include="网易3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="百度2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="百度3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="百度1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
